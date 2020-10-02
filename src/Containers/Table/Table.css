@@ -1,0 +1,84 @@
+body {
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    padding:10px
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc ;
+  }
+  
+  thead th {
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-right: 1px solid #ccc;
+
+  }
+ 
+  
+  thead button {
+    border: 0;
+    border-radius: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: inherit;
+    padding: 0.5em;
+    margin-bottom: 1px;
+  }
+  
+
+  
+  tbody td {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+  
+  tbody tr:hover {
+    background-color: #eee;
+  }
+  
+ 
+  
+  .search-button{
+    background-color: #eee;
+  }
+  
+
+  .menu{
+    z-index: 100;
+    top:0
+  }
+
+  .search{
+      display: flex;
+  }
+
+  .buttons{
+      display:flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+
+  }
+
+  .main-component{
+      padding: 10px;
+  }
+
+  .sorting{
+      display:flex;
+      border: 1ps solid lightgray;
+
+  }
+  .filter{
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(194, 219, 238);
+      border: 1px solid black;
+  }
+
+  .filter:hover{
+      background-color: rgb(38, 57, 143);
+  }
