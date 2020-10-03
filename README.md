@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+live demo:https://shrenika123.github.io/School-database/
+
 Decription:
 This project enables a user to search ,sort and filter data
 
